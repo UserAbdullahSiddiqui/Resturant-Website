@@ -1,0 +1,457 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <header class="text-gray-600 body-font">
+      <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-red-500 rounded-full" viewBox="0 0 24 24">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+          </svg>
+          <span class="ml-3 text-xl">Pizza Haven</span>
+        </a>
+        <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+          <a class="mr-5 hover:text-gray-900" href="#home">Home</a>
+          <a class="mr-5 hover:text-gray-900" href="#menu">Menu</a>
+          <a class="mr-5 hover:text-gray-900" href="#meet">Meet Our Team</a>
+          <a class="mr-5 hover:text-gray-900" href="#review">Review</a>
+        </nav>
+        <button class="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">Order Now</button>
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+        </svg>
+      </div>
+    </header>
+    <section id="home" class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+          <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+              Savor the Flavor of Authentic Pizza
+              <br class="hidden lg:inline-block">Crafted with Passion
+            </h1>
+            <p class="mb-8 leading-relaxed">
+              Experience the perfect blend of crispy crust, rich tomato sauce, and fresh toppings. Whether you're craving a classic Margherita or a loaded meat lover's pizza, we've got something for everyone. Join us for a slice of happiness and make every meal unforgettable.
+            </p>
+            <div class="flex justify-center">
+              <button class="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">
+                Order Now
+              </button>
+            </div>
+          </div>
+          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+            <img class="object-cover object-center rounded" alt="Pizza Delight" src="Header.png">
+          </div>
+        </div>
+      </section>
+      
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-20">
+            <h1 id="menu" class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Discover Our Pizza Creations</h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
+              Indulge in the finest handcrafted pizzas, made with the freshest ingredients and a passion for flavor. From classic favorites to innovative creations, we’ve got something for every pizza lover.
+            </p>
+          </div>
+          <div class="flex flex-wrap -m-4">
+            <div class="lg:w-1/3 sm:w-1/2 p-4">
+              <div class="flex relative">
+                <img alt="Margherita Pizza" class="absolute inset-0 w-full h-full object-cover object-center" src="Margherita Pizza.png">
+                <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                  <h2 class="tracking-widest text-sm title-font font-medium text-red-500 mb-1">SIGNATURE PIZZA</h2>
+                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Margherita Pizza</h1>
+                  <p class="leading-relaxed">A timeless classic with fresh tomatoes, mozzarella, and fragrant basil.</p>
+                </div>
+              </div>
+            </div>
+            <div class="lg:w-1/3 sm:w-1/2 p-4">
+              <div class="flex relative">
+                <img alt="Pepperoni Pizza" class="absolute inset-0 w-full h-full object-cover object-center" src="Pepperoni Pizza.png">
+                <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                  <h2 class="tracking-widest text-sm title-font font-medium text-red-500 mb-1">SIGNATURE PIZZA</h2>
+                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Pepperoni Pizza</h1>
+                  <p class="leading-relaxed">A savory delight with premium pepperoni and melted cheese on a crispy crust.</p>
+                </div>
+              </div>
+            </div>
+            <div class="lg:w-1/3 sm:w-1/2 p-4">
+              <div class="flex relative">
+                <img alt="Veggie Supreme" class="absolute inset-0 w-full h-full object-cover object-center" src="Veggie Supreme Pizza.png">
+                <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                  <h2 class="tracking-widest text-sm title-font font-medium text-red-500 mb-1">SIGNATURE PIZZA</h2>
+                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Veggie Supreme</h1>
+                  <p class="leading-relaxed">A medley of fresh vegetables topped with gooey cheese on a hearty crust.</p>
+                </div>
+              </div>
+            </div>
+            <div class="lg:w-1/3 sm:w-1/2 p-4">
+              <div class="flex relative">
+                <img alt="BBQ Chicken Pizza" class="absolute inset-0 w-full h-full object-cover object-center" src="BBQ Chicken Pizza.png">
+                <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                  <h2 class="tracking-widest text-sm title-font font-medium text-red-500 mb-1">SIGNATURE PIZZA</h2>
+                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">BBQ Chicken Pizza</h1>
+                  <p class="leading-relaxed">Tender chicken, tangy BBQ sauce, and a perfect cheese blend.</p>
+                </div>
+              </div>
+            </div>
+            <div class="lg:w-1/3 sm:w-1/2 p-4">
+              <div class="flex relative">
+                <img alt="Meat Lover's Pizza" class="absolute inset-0 w-full h-full object-cover object-center" src="Meat Lovers Pizza.png">
+                <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                  <h2 class="tracking-widest text-sm title-font font-medium text-red-500 mb-1">SIGNATURE PIZZA</h2>
+                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Meat Lover's Pizza</h1>
+                  <p class="leading-relaxed">Packed with sausage, pepperoni, and bacon for a hearty feast.</p>
+                </div>
+              </div>
+            </div>
+            <div class="lg:w-1/3 sm:w-1/2 p-4">
+              <div class="flex relative">
+                <img alt="Hawaiian Pizza" class="absolute inset-0 w-full h-full object-cover object-center" src="Hawaiian Pizza.png">
+                <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                  <h2 class="tracking-widest text-sm title-font font-medium text-red-500 mb-1">SIGNATURE PIZZA</h2>
+                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Hawaiian Pizza</h1>
+                  <p class="leading-relaxed">A sweet and savory combination of pineapple and ham on a cheesy base.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="text-gray-600 body-font overflow-hidden">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-20">
+            <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">Pizza Packages</h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500">Choose the perfect plan for your pizza cravings—delivered fresh, hot, and delicious.</p>
+            <div class="flex mx-auto border-2 border-red-500 rounded overflow-hidden mt-6">
+              <button class="py-1 px-4 bg-red-500 text-white focus:outline-none">Monthly</button>
+              <button class="py-1 px-4 focus:outline-none">Annually</button>
+            </div>
+          </div>
+          <div class="flex flex-wrap -m-4">
+            <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+              <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
+                <h2 class="text-sm tracking-widest title-font mb-1 font-medium">STARTER</h2>
+                <h1 class="text-5xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none">Free</h1>
+                <p class="flex items-center text-gray-600 mb-2">
+                  <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                      <path d="M20 6L9 17l-5-5"></path>
+                    </svg>
+                  </span>1 free small pizza
+                </p>
+                <p class="flex items-center text-gray-600 mb-2">
+                  <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                      <path d="M20 6L9 17l-5-5"></path>
+                    </svg>
+                  </span>Available toppings: cheese, pepperoni
+                </p>
+                <p class="flex items-center text-gray-600 mb-6">
+                  <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                      <path d="M20 6L9 17l-5-5"></path>
+                    </svg>
+                  </span>Pickup only
+                </p>
+                <button class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">Get Started
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </button>
+                <p class="text-xs text-gray-500 mt-3">A perfect introduction to our menu.</p>
+              </div>
+            </div>
+            <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+              <div class="h-full p-6 rounded-lg border-2 border-red-500 flex flex-col relative overflow-hidden">
+                <span class="bg-red-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">POPULAR</span>
+                <h2 class="text-sm tracking-widest title-font mb-1 font-medium">FAMILY</h2>
+                <h1 class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
+                  <span>$29</span>
+                  <span class="text-lg ml-1 font-normal text-gray-500">/mo</span>
+                </h1>
+                <p class="flex items-center text-gray-600 mb-2">
+                  <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                      <path d="M20 6L9 17l-5-5"></path>
+                    </svg>
+                  </span>3 medium pizzas
+                </p>
+                <p class="flex items-center text-gray-600 mb-2">
+                  <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                      <path d="M20 6L9 17l-5-5"></path>
+                    </svg>
+                  </span>Unlimited toppings
+                </p>
+                <p class="flex items-center text-gray-600 mb-2">
+                  <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                      <path d="M20 6L9 17l-5-5"></path>
+                    </svg>
+                  </span>Delivery included
+                </p>
+                <button class="flex items-center mt-auto text-white bg-red-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-red-600 rounded">Order Now
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </button>
+                <p class="text-xs text-gray-500 mt-3">A great deal for sharing with friends and family!</p>
+              </div>
+            </div>
+            <!-- Add similar sections for "BUSINESS" and "SPECIAL" with pizza-specific content -->
+          </div>
+        </div>
+      </section>
+      
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto flex flex-wrap">
+          <div class="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
+            <div class="w-full sm:p-4 px-4 mb-6">
+              <h1 class="title-font font-medium text-xl mb-2 text-gray-900">Welcome to Pizza Haven</h1>
+              <div class="leading-relaxed">
+                Indulge in our handcrafted pizzas made from the freshest ingredients. From classic favorites to bold new flavors, every bite is a slice of happiness.
+              </div>
+            </div>
+            <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+              <h2 class="title-font font-medium text-3xl text-gray-900">5K+</h2>
+              <p class="leading-relaxed">Happy Customers</p>
+            </div>
+            <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+              <h2 class="title-font font-medium text-3xl text-gray-900">2K+</h2>
+              <p class="leading-relaxed">Daily Orders</p>
+            </div>
+            <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+              <h2 class="title-font font-medium text-3xl text-gray-900">50+</h2>
+              <p class="leading-relaxed">Menu Items</p>
+            </div>
+            <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+              <h2 class="title-font font-medium text-3xl text-gray-900">20</h2>
+              <p class="leading-relaxed">Years in Business</p>
+            </div>
+          </div>
+          <div class="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
+            <img class="object-cover object-center w-full h-full" src="pizza.png" alt="Delicious Pizza">
+          </div>
+        </div>
+      </section>
+      
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-20">
+            <h1 id="meet" class="text-2xl font-medium title-font mb-4 text-gray-900 tracking-widest">MEET OUR TEAM</h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
+              Behind every great pizza is a passionate team. Get to know the chefs, bakers, and staff who bring flavor and joy to every table.
+            </p>
+          </div>
+          <div class="flex flex-wrap -m-4">
+            <div class="p-4 lg:w-1/2">
+              <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="Chef Luca Rossi.png">
+                <div class="flex-grow sm:pl-8">
+                  <h2 class="title-font font-medium text-lg text-gray-900">Chef Thomas</h2>
+                  <h3 class="text-gray-500 mb-3">Head Chef</h3>
+                  <p class="mb-4">
+                    Crafting pizzas with love and care for over 15 years. Mario is the heart of our kitchen.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 lg:w-1/2">
+              <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="Chef Sarah Jenkins, size 200x200.png">
+                <div class="flex-grow sm:pl-8">
+                  <h2 class="title-font font-medium text-lg text-gray-900">Sarah Jenkins</h2>
+                  <h3 class="text-gray-500 mb-3">Pastry Expert</h3>
+                  <p class="mb-4">
+                    Bringing a touch of sweetness with our dessert pizzas, Sarah is a true innovator in the art of baking.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 lg:w-1/2">
+              <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="Chef thomas.png">
+                <div class="flex-grow sm:pl-8">
+                  <h2 class="title-font font-medium text-lg text-gray-900">Luca Rossi</h2>
+                  <h3 class="text-gray-500 mb-3">Pizza Artist</h3>
+                  <p class="mb-4">
+                    Mastering the art of creating visually stunning and equally delicious pizzas for all occasions.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 lg:w-1/2">
+              <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="Chef Emma Clarke, size 200x200.png">
+                <div class="flex-grow sm:pl-8">
+                  <h2 class="title-font font-medium text-lg text-gray-900">Emma Clarke</h2>
+                  <h3 class="text-gray-500 mb-3">Customer Care Manager</h3>
+                  <p class="mb-4">
+                    Ensuring every visit feels like home. Emma is here to make your dining experience unforgettable.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <h1 id="review" class="text-3xl font-medium title-font text-gray-900 mb-12 text-center">What Our Customers Say</h1>
+          <div class="flex flex-wrap -m-4">
+            <div class="p-4 md:w-1/2 w-full">
+              <div class="h-full bg-gray-100 p-8 rounded">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
+                  <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+                </svg>
+                <p class="leading-relaxed mb-6">"The Margherita pizza is a game changer! The crust is perfectly crispy, and the sauce has just the right amount of tanginess. I've never had pizza this fresh and flavorful!"</p>
+                <a class="inline-flex items-center">
+                  <img alt="testimonial" src="lady food blogger.png" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+                  <span class="flex-grow flex flex-col pl-4">
+                    <span class="title-font font-medium text-gray-900">Samantha Green</span>
+                    <span class="text-gray-500 text-sm">Food Blogger</span>
+                  </span>
+                </a>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/2 w-full">
+              <div class="h-full bg-gray-100 p-8 rounded">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
+                  <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+                </svg>
+                <p class="leading-relaxed mb-6">"I love the variety of toppings they offer! The BBQ chicken pizza is my personal favorite—juicy, savory, and downright delicious. Can't wait to order again!"</p>
+                <a class="inline-flex items-center">
+                  <img alt="testimonial" src="male food blogger.png" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+                  <span class="flex-grow flex flex-col pl-4">
+                    <span class="title-font font-medium text-gray-900">Michael Brown</span>
+                    <span class="text-gray-500 text-sm">Entrepreneur</span>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <footer class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+            <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+                <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-red-500 rounded-full" viewBox="0 0 24 24">
+                        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                    </svg>
+                    <span class="ml-3 text-xl">Pizza Haven</span>
+                </a>
+                <p class="mt-2 text-sm text-gray-500">Serving freshly baked pizzas with love and the finest ingredients. Your slice of happiness awaits!</p>
+            </div>
+            <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">MENU</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Signature Pizzas</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Build Your Own</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Salads & Sides</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Desserts</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">COMPANY</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">About Us</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Careers</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Press</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Franchise</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">SUPPORT</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Contact Us</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">FAQs</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Delivery Info</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Gift Cards</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">SOCIAL MEDIA</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Facebook</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Instagram</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Twitter</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">YouTube</a>
+                        </li>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="bg-gray-100">
+            <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+                <p class="text-gray-500 text-sm text-center sm:text-left">© 2025 Pizza Bliss —
+                    <a href="#" class="text-gray-600 ml-1">All rights reserved</a>
+                </p>
+                <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+                    <a class="text-gray-500">
+                        <svg fill="currentColor" class="w-5 h-5" viewBox="0 0 24 24">
+                            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-gray-500">
+                        <svg fill="currentColor" class="w-5 h-5" viewBox="0 0 24 24">
+                            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-gray-500">
+                        <svg fill="none" stroke="currentColor" class="w-5 h-5" viewBox="0 0 24 24">
+                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-gray-500">
+                        <svg fill="currentColor" class="w-5 h-5" viewBox="0 0 24 24">
+                            <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                        </svg>
+                    </a>
+                </span>
+            </div>
+        </div>
+    </footer>
+    
+  </body>
+</html>
